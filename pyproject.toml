@@ -54,7 +54,7 @@ docs = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/yourusername/libfreenect-python"
-Documentation = "https://github.com/yourusername/libfreenect-python#readme"
-Repository = "https://github.com/yourusername/libfreenect-python.git"
+Homepage = "https://github.com/dewminawijekoon/freenect-python"
+Documentation = "https://github.com/dewminawijekoon/freenect-python#readme"
+Repository = "https://github.com/dewminawijekoon/freenect-python.git"
 "
