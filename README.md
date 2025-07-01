@@ -1,69 +1,96 @@
+Sure! Here's a polished and professionally worded version of your `README.md`:
+
+---
+
 # libfreenect Python Wrapper
 
-A Python wrapper for libfreenect, providing access to Microsoft Kinect functionality.
+A modern Python 3-compatible wrapper for [libfreenect](https://github.com/OpenKinect/libfreenect), providing access to Microsoft Kinect v1 functionality.
 
-## Installation
+> ⚠️ This project builds upon the original Python wrapper by [Brandyn White](mailto:bwhite@dappervision.com). I have ported and updated it for Python 3 compatibility and ongoing maintenance.
 
-### From PyPI (recommended) --Still not added
+---
+
+## 🚀 Installation
+
+### 🔧 From Source
+
 ```bash
-pip install freenect
-```
-
-### From Source
-```bash
-git clone https://github.com/yourusername/libfreenect-python.git
-cd libfreenect-python
+git clone https://github.com/dewminawijekoon/freenect-python.git
+cd freenect-python
 pip install .
 ```
 
-### For Development
+### 🧪 For Development
+
 ```bash
-git clone https://github.com/yourusername/libfreenect-python.git
-cd libfreenect-python
+git clone https://github.com/dewminawijekoon/freenect-python.git
+cd freenect-python
 pip install -e ".[dev]"
 ```
 
-## Prerequisites
+> 🔜 PyPI installation coming soon.
 
-Before installing, make sure you have libfreenect installed on your system. Follow instructions on official GitHub repository: https://github.com/OpenKinect/libfreenect
+---
 
-## Quick Start
+## 📦 Prerequisites
+
+Make sure `libfreenect` is installed on your system before using this wrapper.
+
+Follow the official instructions:
+👉 [https://github.com/OpenKinect/libfreenect](https://github.com/OpenKinect/libfreenect)
+
+---
+
+## ⚡ Quick Start
 
 ```python
 import freenect
 import numpy as np
 
-# Get depth image
+# Capture a depth image
 depth, timestamp = freenect.sync_get_depth()
-print(f"Depth image shape: {depth.shape}")
+print(f"Depth shape: {depth.shape}")
 
-# Get RGB image
+# Capture an RGB image
 rgb, timestamp = freenect.sync_get_video()
-print(f"RGB image shape: {rgb.shape}")
+print(f"RGB shape: {rgb.shape}")
 ```
 
-## Features
+---
 
-- Access to Kinect depth camera
-- Access to Kinect RGB camera
-- Synchronous and asynchronous APIs
-- NumPy array integration
-- Cross-platform support (Linux, macOS, Windows)
+## ✨ Features
 
-## Requirements
+* Access Kinect depth and RGB video streams
+* Synchronous & asynchronous capture modes
+* Seamless integration with NumPy
+* Cross-platform support (Linux, macOS, Windows)
 
-- Python 3.8+
-- NumPy
-- libfreenect (system library)
+---
 
-## License
+## 📋 Requirements
 
-This project is licensed under the Apache License 2.0 - see the LICENSE file for details.
+* Python 3.8+
+* NumPy
+* libfreenect (installed system-wide)
 
-## Contributing
+---
 
-Contributions are welcome! Please feel free to submit a Pull Request.
+## 📄 License
 
-## Issues
+Licensed under the [Apache License 2.0](LICENSE).
 
-If you encounter any problems, please file an issue along with a detailed description.
+---
+
+## 🤝 Contributing
+
+Contributions are welcome! Feel free to open issues, fork the repo, or submit pull requests.
+
+---
+
+## 🐛 Issues
+
+Encounter a problem? Open an issue and include a detailed description to help us assist you better.
+
+---
+
+Let me know if you'd like to also include a build badge, image from Kinect output, or extra setup instructions!
