@@ -6,7 +6,7 @@ Sure! Here's a polished and professionally worded version of your `README.md`:
 
 A modern Python 3-compatible wrapper for [libfreenect](https://github.com/OpenKinect/libfreenect), providing access to Microsoft Kinect v1 functionality.
 
-> ⚠️ This project builds upon the original Python wrapper by [Brandyn White](mailto:bwhite@dappervision.com). I have ported and updated it for Python 3 compatibility and ongoing maintenance.
+> ⚠️ This project builds upon the original Python wrapper by [Brandyn White](mailto:bwhite@dappervision.com)(https://github.com/bwhite). I have ported and updated it for Python 3 compatibility and ongoing maintenance.
 
 ---
 
