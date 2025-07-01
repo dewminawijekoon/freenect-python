@@ -1,7 +1,3 @@
-Sure! Here's a polished and professionally worded version of your `README.md`:
-
----
-
 # libfreenect Python Wrapper
 
 A modern Python 3-compatible wrapper for [libfreenect](https://github.com/OpenKinect/libfreenect), providing access to Microsoft Kinect v1 functionality.
@@ -90,7 +86,3 @@ Contributions are welcome! Feel free to open issues, fork the repo, or submit pu
 ## 🐛 Issues
 
 Encounter a problem? Open an issue and include a detailed description to help us assist you better.
-
----
-
-Let me know if you'd like to also include a build badge, image from Kinect output, or extra setup instructions!
