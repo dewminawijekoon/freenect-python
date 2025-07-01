@@ -1,0 +1,60 @@
+[build-system]
+requires = [
+    "setuptools>=67.0",
+    "wheel>=0.40",
+    "Cython>=0.29;python_version>='3.8'",
+    "numpy>=1.19.0",
+]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "freenect"
+version = "0.7.0"
+description = "Python wrapper for libfreenect - Microsoft Kinect library"
+readme = "README.md"
+license = {text = "Apache-2.0"}
+authors = [
+    {name = "Dewmina Wijekoon", email = "dewmandula@gmail.com"},
+]
+maintainers = [
+    {name = "Dewmina Wijekoon", email = "dewmandula@gmail.com"},
+]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: Apache Software License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Cython",
+    "Topic :: Multimedia :: Graphics :: Capture",
+    "Topic :: Scientific/Engineering",
+]
+keywords = ["kinect", "freenect", "computer-vision", "depth-camera"]
+requires-python = ">=3.8"
+dependencies = [
+    "numpy>=1.19.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=6.0",
+    "pytest-cov",
+    "black",
+    "flake8",
+    "mypy",
+]
+docs = [
+    "sphinx",
+    "sphinx-rtd-theme",
+]
+
+[project.urls]
+Homepage = "https://github.com/yourusername/libfreenect-python"
+Documentation = "https://github.com/yourusername/libfreenect-python#readme"
+Repository = "https://github.com/yourusername/libfreenect-python.git"
+"
