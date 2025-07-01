@@ -1,0 +1,26 @@
+# Include the README and license
+include README.md
+include LICENSE
+include MANIFEST.in
+
+# Include the Cython source files
+include *.pyx
+include *.pxd
+
+# Include CMake files if needed
+include CMakeLists.txt
+
+# Include any additional configuration files
+recursive-include src *.py
+recursive-include src *.pyx
+recursive-include src *.pxd
+
+# Exclude build artifacts
+global-exclude *.pyc
+global-exclude *.pyo
+global-exclude *.so
+global-exclude *.dll
+global-exclude *.dylib
+global-exclude __pycache__
+global-exclude .DS_Store
+global-exclude *.egg-info
